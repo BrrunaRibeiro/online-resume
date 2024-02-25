@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Exo:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .bg-color-name-title {
     background-color: #636363;
@@ -26,7 +25,9 @@ h4 {
     color: #fafafa;
 }
 
-.inline-block {}
+.inline-block {
+
+}
 
 header {
     margin: 0;
@@ -179,4 +180,35 @@ footer a {
 #footer-details {
     padding: 20px;
     align-items: center;
+}
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+.row-table {
+    display: table;
+
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
