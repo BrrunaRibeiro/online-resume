@@ -9,6 +9,25 @@
     background-color: #e67e22;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {}
+
 header {
     margin: 0;
 }
@@ -42,7 +61,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color:#fff;
+    color: #fff;
 }
 
 .list-inline-item:not(:last-child) {
@@ -97,4 +116,67 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.fa-bounce {
+    --fa-bounce-start-scale-x: 1;
+    --fa-bounce-start-scale-y: 1;
+    --fa-bounce-jump-scale-x: 1;
+    --fa-bounce-jump-scale-y: 1;
+    --fa-bounce-land-scale-x: 1;
+    --fa-bounce-land-scale-y: 1;
+    --fa-bounce-rebound: 0.5;
+    --fa-animation-duration: 1.5s;
+}
+
+footer a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.cv-pdf:hover {
+    color: #979797;
+    text-decoration: none;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #c66c1e;
+    text-align: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #c66c1e;
+}
+
+#footer-details {
+    padding: 20px;
+    align-items: center;
 }
