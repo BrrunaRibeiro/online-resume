@@ -92,6 +92,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
+    text-decoration-line: none;
     color: #fff;
     height: 120px;
 }
@@ -341,6 +342,15 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #166349;
+}
+
+a {
+    text-decoration: none;
+    background: #343a408f;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 @media(min-width: 992px) {
