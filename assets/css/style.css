@@ -5,7 +5,7 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #92a28f;
 }
 
 h1,
@@ -149,7 +149,7 @@ footer a {
 
 .cv-pdf i {
     font-size: 18px;
-    color: #c66c1e;
+    color: #166349;
     text-align: center;
 }
 
@@ -174,7 +174,7 @@ footer a {
 }
 
 .social-links li a i:hover {
-    background-color: #c66c1e;
+    background-color: #166349;
 }
 
 #footer-details {
@@ -197,7 +197,8 @@ footer a {
     float: none;
 }
 
-.section-heading {
+.section-heading,
+.history-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -206,7 +207,7 @@ footer a {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e67e22;
+    color: #92a28f;
 }
 
 .three-reasons-heading {
@@ -266,4 +267,54 @@ footer a {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+.bg-color-work-history {
+    background-color: #92a28f;
+}
+
+.history-heading {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: "";
+    background: #fafafa;
+}
+
+.histoty-items {
+    margin-bottom: 30px;
 }
