@@ -174,9 +174,14 @@ footer a {
     -o-transition: all 0.35s ease-in-out;
 }
 
+i[class="fa"]:hover {
+    text-decoration: none;
+}
+
 .social-links li a i:hover {
     background-color: #166349;
-}
+} 
+/* notworking */
 
 #footer-details {
     padding: 20px;
@@ -350,8 +355,8 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
-}
+    text-decoration: none; !important
+}   
 
 @media(min-width: 992px) {
     .center-form {
