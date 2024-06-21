@@ -188,6 +188,9 @@ i[class="fa"]:hover {
     align-items: center;
 }
 
+a[class="cv-pdf"] {
+    background: transparent;
+}
 .bg-color-three-reasons {
     background-color: #fff;
 }
