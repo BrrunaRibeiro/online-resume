@@ -25,9 +25,7 @@ h4 {
     color: #fafafa;
 }
 
-.inline-block {
-
-}
+.inline-block {}
 
 header {
     margin: 0;
@@ -180,7 +178,8 @@ i[class="fa"]:hover {
 
 .social-links li a i:hover {
     background-color: #166349;
-} 
+}
+
 /* notworking */
 
 #footer-details {
@@ -191,6 +190,7 @@ i[class="fa"]:hover {
 a[class="cv-pdf"] {
     background: transparent;
 }
+
 .bg-color-three-reasons {
     background-color: #fff;
 }
@@ -354,12 +354,22 @@ button[type="submit"] {
 
 a {
     text-decoration: none;
-    background: #526b5c8f;
+    background: transparent;
+    color: inherit;
 }
 
 a:hover {
-    text-decoration: none; !important
-}   
+    text-decoration: none;
+    !important
+}
+
+div#map {
+    min-height: 360px;
+}
+
+a:hover {
+    color: #166349;
+}
 
 @media(min-width: 992px) {
     .center-form {
